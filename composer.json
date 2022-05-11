@@ -1,0 +1,28 @@
+{
+    "name": "yousef/orm",
+    "autoload": {
+        "psr-4": {
+            "Yousef\\Orm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "y.abuanzeh",
+            "email": "y.abuanzeh@postaplus.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/octane": "^1.2",
+        "psr/simple-cache": "^1.0"
+    },
+    "require-dev": {
+        "facade/ignition": "^2.5",
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^5.10",
+        "phpunit/phpunit": "^9.5.10"
+    }
+}
